@@ -58,17 +58,30 @@ ul.square {
 
 #toTop {
 	float:right;
-	position: relative;
-	border: 3px solid white;
-	background-color: black;
-
+	position: relative;display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
 
 }
 #toTop:hover{
 	float:right;
 	position: relative;
-	border: 3px solid white;
-	background-color: rgb(100, 100, 100);
-	top: 3px;
+	color: #FFF;
+  background-color: rgb(100, 100, 100)B;
+  border-color: rgb(100, 100, 100); }
 
 }
