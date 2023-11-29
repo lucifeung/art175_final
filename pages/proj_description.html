@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- for image gallery -->
+<link rel="stylesheet" type="text/css" href="../css/proj_description.css">
+<link rel="stylesheet" type="text/css" href="../css/splide-core.min.css">
+<link rel="stylesheet" type="text/css" href="../css/splide-default.min.css">
+<link rel="stylesheet" type="text/css" href="../css/splide.min.css">
+<script src="../js/splide.min.js"></script>
+<!-- the other css -->
+<link rel="stylesheet" href="../css/skeleton.css">
+<link rel="stylesheet" href="../css/normalize.css">
+<link rel="stylesheet" href="../css/navbar.css">
+<link rel="stylesheet" href="../css/style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel', {
+                heightRatio: 1,
+            }).mount();
+        });
+    </script>
+    <title>Ctrl+Art+Del</title>
+</head>
+
+<body>
+    <div class="bg-color">
+
+        <div class="container" style="padding: 3%">
+            <div class="row">
+                <div class="twelve columns">
+                    <img src="../assets/website_logo/logo.png" class="u-full-width" style="width: ;">
+                </div>
+            </div>
+        </div>
+
+        <!-- container 3 holds both nav bar and other elements -->
+        <div class="container3">
+            <div class="child3-1">
+                <div class="container">
+
+                    <div id="navigator">
+                        <a id="homeNavi" href="../index.html"><b> > Home < </b></a>
+
+                        <!-- Set href to element ID to jump to that element -->
+                        <ul class="square">
+                            <li><a class="naviATag" href="../gallery.html">Gallery</a></li>
+                            <li><a class="naviATag" href="#endOfPage">End of page</a></li>
+                        </ul>
+
+                        <br><br><br>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="child3-2">
+
+                <div class=" container1">
+                    <!-- carousel gallery -->
+                    <div class="child1">
+                        <section id="image-carousel" class="splide" aria-label="Project Images">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/tester1.png" alt="">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/tester2.png" alt="">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/tester3.png" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- area for description -->
+                    <div class="child2">
+                        <h2>Project Name</h2>
+                        <h3>Artist Name</h3>
+                        <p style="text-align: left;">
+                            Artist statement:
+                            
+                        </p>
+                        <a href="">
+                            <button style="margin-bottom: 15%; text-transform: uppercase; ">view project</button>
+                        </a>
+                    </div>
+                </div>
+                <br>
+
+
+
+                <div class="container2">
+                    <div class="child2-1">
+                        <h2>Biography</h2>
+                        <p style="text-align: left;">
+
+                        </p>
+                        <a href="">
+                            <button style="margin-bottom: 15%; text-transform: uppercase; ">view artist
+                                portfolio</button>
+                        </a>
+                    </div>
+                    <div class="child2-2">
+                        <img class="artist_profile" src="../assets/artist_img/artist1.png" alt="artist 1">
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- for image gallery -->
+<link rel="stylesheet" type="text/css" href="./css/proj_description.css">
+<link rel="stylesheet" type="text/css" href="./css/splide-core.min.css">
+<link rel="stylesheet" type="text/css" href="./css/splide-default.min.css">
+<link rel="stylesheet" type="text/css" href="./css/splide.min.css">
+<script src="./js/splide.min.js"></script>
+<!-- the other css -->
+<link rel="stylesheet" href="./css/skeleton.css">
+<link rel="stylesheet" href="./css/normalize.css">
+<link rel="stylesheet" href="./css/navbar.css">
+<link rel="stylesheet" href="./css/style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel', {
+                heightRatio: 1.5,
+            }).mount();
+        });
+    </script>
+    <title>AI Designer | Fashion Generator</title>
+</head>
+
+<body>
+    <div class="bg-color">
+
+        <div class="container" style="padding: 3%">
+            <div class="row">
+                <div class="twelve columns">
+                    <img src="./assets/banner.png" class="u-full-width" style="width: ;">
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVBAR START -->
+        <div id="navigator">
+            <a class="button button-primary" href="index.html">Homepage</a>
+            <a class="button button-primary" href="gallery.html">Gallery</a>
+            <a class="button button-primary" href="">Recap</a>
+            <a class="button button-primary" id="toTop" href="#topOfPage">UP</a>
+        </div>
+        <!-- NAVBAR ENDS -->
+
+        <!-- container 3 holds both nav bar and other elements -->
+        <div class="container3">
+            <div class="child3-1">
+                <div class="container">
+                </div>
+            </div>
+
+            <div class="child3-2">
+
+                <div class=" container1">
+                    <!-- carousel gallery -->
+                    <div class="child1">
+                        <section id="image-carousel" class="splide" aria-label="Project Images">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <img src="./assets/7.jpg" alt="4">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="./assets/6.jpg" alt="3">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="./assets/5.jpg" alt="5">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="./assets/4.jpg" alt="6">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="./assets/3.jpg" alt="7">
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- area for description -->
+                    <div class="child2">
+                        <h2>Simplicity and Elegance in Monochrome: Shop Their Fashion Week Looks Made by AI</h2>
+                        <!-- <h3>Fashion Week Recap </h3> -->
+                        <br>
+                        <p style="text-align: left;">
+                          Black and white fashion design is a timeless classic that has been around for decades. The combination of these two colors is a perfect blend of simplicity and elegance, making it a popular choice among fashion enthusiasts. From monochrome abstract design mini skirts to geometric printed slim fit men’s summer twill shirts, black and white fashion design has a wide range of options to choose from.
+                          <br><br>
+                          The fashion industry has been revolutionized by the use of Artificial Intelligence (AI) in recent years. AI-powered fashion design has become a game-changer, revolutionizing the way garments are conceptualized, created, and showcased. From AI-generated clothing designs that push the boundaries of creativity and craftsmanship to AI-powered startups that are transforming the fashion industry, the possibilities are endless.
+                          <br><br>
+                          Black and white fashion design has been a staple in the fashion industry for years, and with the advent of AI, it has become even more innovative and exciting. The possibilities are endless, and we can’t wait to see what the future holds for this timeless classic.
+                        </p>
+                        <!-- <a href=""> -->
+                            <button style="margin-bottom: 15%; text-transform: uppercase; ">view project</button>
+                        <!-- </a> -->
+                    </div>
+                </div>
+                <br>
+
+
+
+
+
+                <div class="container2">
+                    <div class="child2-1">
+                        <h2>Fashion Week Recap</h2>
+                        <p style="text-align: left;">
+                          Lorem ipsum dolor sit amet. Ut exercitationem voluptatem ut nihil esse aut suscipit deleniti in sequi magnam et magni asperiores aut quos sunt. Eos Quis maxime hic accusamus rerum sed eaque nulla. Id dicta natus 33 odit quos aut voluptates sunt eos voluptas consequuntur ut repellat dolorem a iusto quas. Nam quia soluta et quis officiis ut impedit fugiat.
+                          <br><br>
+                          Et modi nisi qui quae quia aut facere enim eos magnam culpa et quia ducimus sit amet atque. Aut similique doloribus et voluptas assumenda in autem beatae quo vitae fuga. Ad internos placeat ea dolorem quia et magni quia et reprehenderit doloribus. Ea molestias incidunt qui totam autem ab voluptates ratione rem dolorem Quis non iste architecto.
+                        </p>
+                        <!-- <a href="https://lucifeung.github.io/"> -->
+                            <button style="margin-bottom: 15%; text-transform: uppercase; ">view designer
+                                portfolio</button>
+                        <!-- </a> -->
+                    </div>
+                    <div class="child2-2">
+                        <img class="artist_profile" src="./assets/LP.jpg" alt="Phuong Ngo">
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
