@@ -109,8 +109,9 @@ img {
 }
 
 
+
 /* button */
-/* button {
+button {
   background-color: black;
   border: none;
   border-radius: 8px;
@@ -123,4 +124,5 @@ img {
   text-align: center;
   text-decoration: none;
   top: 11%;
-} */
+
+}
