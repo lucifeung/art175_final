@@ -1,31 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <!-- for image gallery -->
-<link rel="stylesheet" type="text/css" href="./css/proj_description.css">
-<link rel="stylesheet" type="text/css" href="./css/splide-core.min.css">
-<link rel="stylesheet" type="text/css" href="./css/splide-default.min.css">
-<link rel="stylesheet" type="text/css" href="./css/splide.min.css">
-<script src="./js/splide.min.js"></script>
-<script src="./js/upfunction.js"></script>
+<link rel="stylesheet" type="text/css" href="css/proj_description.css">
+<link rel="stylesheet" type="text/css" href="css/splide-core.min.css">
+<link rel="stylesheet" type="text/css" href="css/splide-default.min.css">
+<link rel="stylesheet" type="text/css" href="css/splide.min.css">
+<script src="js/splide.min.js"></script>
 <!-- the other css -->
-<link rel="stylesheet" href="./css/skeleton.css">
-<link rel="stylesheet" href="./css/normalize.css">
-<link rel="stylesheet" href="./css/navbar.css">
-<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/style.css">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
     <meta charset="utf-8">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            new Splide('#image-carousel', {
-                heightRatio: 1.5,
-            }).mount();
-        });
-    </script>
-    <title>Fashion AI | Fall 2023</title>
+    <title>Home | Fashion AI | Fall 2023</title>
 </head>
 
 <body>
@@ -34,107 +26,168 @@
         <div class="container" style="padding: 3%">
             <div class="row">
                 <div class="twelve columns">
-                    <img src="./assets/banner.png" class="u-full-width" style="width: ;">
+                    <img src="assets/banner.png" class="u-full-width">
                 </div>
             </div>
         </div>
 
         <!-- NAVBAR START -->
         <div id="navigator">
-            <a class="button button-primary" href="index.html">Homepage</a>
-            <a class="button button-primary" href="gallery.html">Gallery</a>
-            <a class="button button-primary" href="">About</a>
-            <a class="button button-primary" onclick="topFunction()"id="toTop" href="#topOfPage">Top</a>
+          <a class="button button-primary" href="index.html">Homepage</a>
+          <a class="button button-primary" href="recap.html">Recap</a>
+          <a class="button button-primary" href="about.html">About</a>
+          <a class="button button-primary" onclick="topFunction()"id="toTop" href="#topOfPage">Top</a>
         </div>
         <!-- NAVBAR ENDS -->
 
-        <!-- container 3 holds both nav bar and other elements -->
-        <div class="container3">
-            <div class="child3-1">
-                <div class="container">
-                </div>
-            </div>
 
-            <div class="child3-2">
+        <div class="container2">
 
-                <div class=" container1">
-                    <!-- carousel gallery -->
-                    <div class="child1">
-                      <br><br><br><br><br><br>
-                        <section id="image-carousel" class="splide" aria-label="Project Images">
-                            <div class="splide__track">
-                                <ul class="splide__list">
-                                    <li class="splide__slide">
-                                        <img src="./assets/7.jpg" alt="4">
-                                    </li>
-                                    <li class="splide__slide">
-                                        <img src="./assets/6.jpg" alt="3">
-                                    </li>
-                                    <li class="splide__slide">
-                                        <img src="./assets/5.jpg" alt="5">
-                                    </li>
-                                    <li class="splide__slide">
-                                        <img src="./assets/4.jpg" alt="6">
-                                    </li>
-                                    <li class="splide__slide">
-                                        <img src="./assets/3.jpg" alt="7">
-                                    </li>
-                                </ul>
-                            </div>
-                        </section>
-                    </div>
+            <!-- area for description -->
+            <div class="child3">
+                <h2 style="font-family: 'Source Code Pro', monospace;">UNLEASHING THE FUTURE: THE AI FASHION WEEK</h2>
 
-                    <!-- area for description -->
-                    <div class="child2">
-
-                        <br><br>
-                        <h2>Simplicity and Elegance in Monochrome: Shop Their Fashion Week Looks Made by AI</h2>
-                        <!-- <h3>Fashion Week Recap </h3> -->
-                        <br>
-                        <p style="text-align: left;">
-                          Black and white fashion design is a timeless classic that has been around for decades. The combination of these two colors is a perfect blend of simplicity and elegance, making it a popular choice among fashion enthusiasts. From monochrome abstract design mini skirts to geometric printed slim fit men’s summer twill shirts, black and white fashion design has a wide range of options to choose from.
-                          <br><br>
-                          The fashion industry has been revolutionized by the use of Artificial Intelligence (AI) in recent years. AI-powered fashion design has become a game-changer, revolutionizing the way garments are conceptualized, created, and showcased. From AI-generated clothing designs that push the boundaries of creativity and craftsmanship to AI-powered startups that are transforming the fashion industry, the possibilities are endless.
-                          <br><br>
-                          This Fall 2023, with AI's cutting-edge technology infusing with the designer's artistic eyes, the fashion industry has become even more innovative and exciting. Whether you are looking for a casual outfit or a formal dress, our AI-powered fashion designers can help you look your best. The possibilities are endless, and we cannot wait to see what the future holds for this timeless classic.
-                        </p>
-                        <br><br>
-                        <!-- <p href=""> -->
-                            <a href="" class="button button-primary"  style="margin-bottom: 15%; text-transform: uppercase; ">view project</a>
-                        <!-- </p> -->
-                    </div>
-                </div>
-                <br>
-
-
-
-
-
-                <div class="container2">
-                    <div class="child2-1">
-                        <h2>About the Designer</h2>
-                        <p style="text-align: left;">
-                          Lorem ipsum dolor sit amet. Ut exercitationem voluptatem ut nihil esse aut suscipit deleniti in sequi magnam et magni asperiores aut quos sunt. Eos Quis maxime hic accusamus rerum sed eaque nulla. Id dicta natus 33 odit quos aut voluptates sunt eos voluptas consequuntur ut repellat dolorem a iusto quas. Nam quia soluta et quis officiis ut impedit fugiat.
-                          <br><br>
-                          Et modi nisi qui quae quia aut facere enim eos magnam culpa et quia ducimus sit amet atque. Aut similique doloribus et voluptas assumenda in autem beatae quo vitae fuga. Ad internos placeat ea dolorem quia et magni quia et reprehenderit doloribus. Ea molestias incidunt qui totam autem ab voluptates ratione rem dolorem Quis non iste architecto.
-                        </p>
-                        <br><br>
-                        <!-- <p href="https://lucifeung.github.io/"> -->
-                            <a href="https://lucifeung.github.io/" class="button button-primary" style="margin-bottom: 15%; text-transform: uppercase; ">view designer
-                                portfolio</a>
-                      <!-- </p> -->
-                    </div>
-
-                    <div class="child2-2">
-                      <br><br><br><br><br>
-                        <img class="artist_profile" src="./assets/LP.jpg" alt="Phuong Ngo">
-                    </div>
-                </div>
-                <br>
             </div>
         </div>
 
+            <br>  <br>  <br>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                    <a href="assets/9.jpg" target="_blank">
+                        <img src="assets/9.jpg" class="u-full-width" />
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- container 3 holds both nav bar and other elements -->
+        <div class="container3">
+
+            <!-- area for description -->
+            <div class="child3">
+
+                <p style="text-align: left; font-size: 16px;   line-height: 150%;">
+                    In a dazzling display of innovation and elegance, the second edition of AI Fashion Week took place from November 30 to December 1, 2023, captivating the world with a mesmerizing fusion of technology and fashion. As fashionistas and tech aficionados excitedly tuned in, the virtual runway showcased a symphony of artificial intelligence and creative genius that left viewers in awe.
+                </p>
+
+                <p style="text-align: left; font-size: 16px;   line-height: 150%;">
+                    The event marked a pivotal moment in the fashion industry’s evolution, proving that the intersection of artificial intelligence and fashion design is not only a trend, but a transformational force shaping the future of style. From virtual front rows to holographic models, Fashion AI pushed the boundaries of imagination and reinvented the traditional runway experience. With AI Fashion Week, the exclusive world of attending fashion events and shows becomes accessible to everyone around the world.This first Fashion AI show is where we covered the artificial intelligence computer programs and prompts that generate images from natural text: Adobe Firefly, Stable Diffusion, and Dall-E.
+                </p>
+            </div>
+
     </div>
+
+            <br>  <br>  <br>
+
+          <div class="container">
+              <div class="row">
+                  <div class="twelve columns">
+                      <a href="assets/10.jpg" target="_blank">
+                          <img src="assets/10.jpg" class="u-full-width" />
+                      </a>
+                  </div>
+              </div>
+
+          </div>
+
+          <div class="container3">
+
+              <!-- area for description -->
+              <div class="child3">
+
+                  <p style="text-align: left; font-size: 16px;   line-height: 150%;">
+                      One of the highlights of the event was the collaboration between renowned fashion designers and cutting-edge AI algorithms. Designers partnered with AI systems to co-create unique pieces that seamlessly blended the human touch with the precision of machine learning. The result? A stunning collection that challenged preconceived notions of fashion, with garments that seemed to go beyond the limits of creativity.
+                  </p>
+
+
+              </div>
+
+            </div> <br>  <br>  <br>
+
+            <div class="container">
+                <div class="row">
+                    <div class="twelve columns">
+                        <a href="assets/8.jpg" target="_blank">
+                            <img src="assets/8.jpg" class="u-full-width" />
+                        </a><br><br>
+
+                        <a href="assets/11.jpg" target="_blank">
+                            <img src="assets/11.jpg" class="u-full-width" />
+                        </a><br><br>
+
+
+                        <a href="assets/12.jpg" target="_blank">
+                            <img src="assets/12.jpg" class="u-full-width" />
+                        </a><br><br>
+
+                        <a href="assets/12.jpg" target="_blank">
+                            <img src="assets/15.jpg" class="u-full-width" />
+                        </a><br><br>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="container3">
+
+                <!-- area for description -->
+                <div class="child3">
+
+                    <p style="text-align: left; font-size: 16px;   line-height: 150%;">
+                      The fashion industry has been revolutionized by the use of Artificial Intelligence (AI) in recent years. AI-powered fashion design has become a game-changer, revolutionizing the way garments are conceptualized, created, and showcased. From AI-generated clothing designs that push the boundaries of creativity and craftsmanship to AI-powered startups that are transforming the fashion industry, the possibilities are endless. </p>
+                      <p style="text-align: left; font-size: 16px;   line-height: 150%;">
+                      Fashion is rushing to discover ways generative-AI tools could be useful. Thanks to technology’s ability to immediately create high-quality imagery, fashion is one of the applications where it could have a great impact.
+                    </p>
+
+
+                </div>
+
+              </div> <br>  <br>  <br>
+
+<br><br><br><br>
+            <div class="container2">
+
+                <!-- area for description -->
+                <div class="child3">
+                    <h2 style="font-family: 'Source Code Pro', monospace;">UPCOMING EVENT: AI FASHION WEEK 2</h2>
+                    <br><br>
+                </div>
+            </div>
+            <br><br><br><br>
+            <div class="container">
+                <div class="row">
+                    <div class="twelve columns">
+                        <a href="assets/8.jpg" target="_blank">
+                            <img src="assets/18.jpg" class="u-full-width" />
+                        </a><br><br>
+
+                        <a href="assets/11.jpg" target="_blank">
+                            <img src="assets/19.jpg" class="u-full-width" />
+                        </a><br><br>
+
+
+                        <a href="assets/12.jpg" target="_blank">
+                            <img src="assets/20.jpg" class="u-full-width" />
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+</div>
+
+
+<br><br><br><br><br><br>
+          <!-- END OF BODY -->
+          </div>
+
 </body>
 
 </html>

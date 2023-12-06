@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- for image gallery -->
+<link rel="stylesheet" type="text/css" href="./css/proj_description.css">
+<link rel="stylesheet" type="text/css" href="./css/splide-core.min.css">
+<link rel="stylesheet" type="text/css" href="./css/splide-default.min.css">
+<link rel="stylesheet" type="text/css" href="./css/splide.min.css">
+<script src="./js/splide.min.js"></script>
+<script src="./js/upfunction.js"></script>
+<!-- the other css -->
+<link rel="stylesheet" href="./css/skeleton.css">
+<link rel="stylesheet" href="./css/normalize.css">
+<link rel="stylesheet" href="./css/navbar.css">
+<link rel="stylesheet" href="./css/style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel', {
+                heightRatio: 1.5,
+            }).mount();
+        });
+    </script>
+    <title>Fashion AI | Fall 2023</title>
+</head>
+
+<body>
+    <div class="bg-color">
+
+        <div class="container" style="padding: 3%">
+            <div class="row">
+                <div class="twelve columns">
+                    <img src="./assets/banner.png" class="u-full-width" style="width: ;">
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVBAR START -->
+        <div id="navigator">
+            <a class="button button-primary" href="index.html">Homepage</a>
+            <a class="button button-primary" href="recap.html">Recap</a>
+            <a class="button button-primary" href="about.html">About</a>
+            <a class="button button-primary" onclick="topFunction()"id="toTop" href="#topOfPage">Top</a>
+        </div>
+        <!-- NAVBAR ENDS -->
+
+        <!-- container 3 holds both nav bar and other elements -->
+
+<br><br><br><br><br>
+
+                <div class="container2">
+                    <div class="child2-1">
+                        <h2>About the Designer</h2>
+                        <p style="text-align: left;">
+                          Phuong Ngo is a college student, majoring Digital Media Art in San Jose State University. During her time in school, she learned 3D modeling, html and java coding; so aside from digital drawing, Phuong can also do basic website design, logo design, character design, and fashion design. She is a digital illustrator that started making her earliest works mostly based on fan art and game art. In 2020, she changed her art style into semi-realism, increased her fanbase and started accepting commissions as her second part-time job. She has a good storytelling skill, and has talent in implying parable, lesson, wordplay, symbol, etc. in her artworks. Phuong really tends to include a second layer meaning behind every detail of her work of art, because she personally thinks that is how any artwork becomes a work of art - by being meaningful in the most subtle way.
+                          </p>
+                        <br><br>
+                        <!-- <p href=""> -->
+                            <a href="https://lucifeung.github.io/" target="_blank" class="button button-primary" style="margin-bottom: 15%; text-transform: uppercase; ">view designer
+                                portfolio</a>
+                      <!-- </p> -->
+                    </div>
+
+                    <div class="child2-2">
+                      <br><br><br><br><br>
+                        <img class="artist_profile" src="./assets/LP.jpg" alt="Phuong Ngo">
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

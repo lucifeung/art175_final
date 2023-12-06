@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- for image gallery -->
+<link rel="stylesheet" type="text/css" href="./css/proj_description.css">
+<link rel="stylesheet" type="text/css" href="./css/splide-core.min.css">
+<link rel="stylesheet" type="text/css" href="./css/splide-default.min.css">
+<link rel="stylesheet" type="text/css" href="./css/splide.min.css">
+<script src="./js/splide.min.js"></script>
+<script src="./js/upfunction.js"></script>
+<!-- the other css -->
+<link rel="stylesheet" href="./css/skeleton.css">
+<link rel="stylesheet" href="./css/normalize.css">
+<link rel="stylesheet" href="./css/navbar.css">
+<link rel="stylesheet" href="./css/style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel', {
+                heightRatio: 1.5,
+            }).mount();
+        });
+    </script>
+    <title>Recap |Fashion AI | Fall 2023</title>
+</head>
+
+<body>
+    <div class="bg-color">
+
+        <div class="container" style="padding: 3%">
+            <div class="row">
+                <div class="twelve columns">
+                    <img src="./assets/banner.png" class="u-full-width" style="width: ;">
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVBAR START -->
+        <div id="navigator">
+            <a class="button button-primary" href="index.html">Homepage</a>
+            <a class="button button-primary" href="recap.html">Recap</a>
+            <a class="button button-primary" href="about.html">About</a>
+            <a class="button button-primary" onclick="topFunction()"id="toTop" href="#topOfPage">Top</a>
+        </div>
+        <!-- NAVBAR ENDS -->
+
+        <!-- container 3 holds both nav bar and other elements -->
+        <div class="container3">
+            <div class="child3-1">
+                <div class="container">
+                </div>
+            </div>
+
+            <div class="child3-2">
+
+                <div class=" container1">
+                    <!-- carousel gallery -->
+                    <div class="child1">
+                      <br><br><br><br><br><br>
+                        <section id="image-carousel" class="splide" aria-label="Project Images">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <img src="./assets/7.jpg" alt="4">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="./assets/6.jpg" alt="3">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="./assets/5.jpg" alt="5">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="./assets/4.jpg" alt="6">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="./assets/3.jpg" alt="7">
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- area for description -->
+                    <div class="child2">
+
+                        <br><br>
+                        <h2>Simplicity and Elegance in Monochrome: Shop Their Fashion Week Looks Made by AI</h2>
+                        <!-- <h3>Fashion Week Recap </h3> -->
+                        <br>
+                        <p style="text-align: left;">
+                          Black and white fashion design is a timeless classic that has been around for decades. The combination of these two colors is a perfect blend of simplicity and elegance, making it a popular choice among fashion enthusiasts. From monochrome abstract design mini skirts to geometric printed slim fit men’s summer twill shirts, black and white fashion design has a wide range of options to choose from.
+                          <br><br>
+                          The fashion industry has been revolutionized by the use of Artificial Intelligence (AI) in recent years. AI-powered fashion design has become a game-changer, revolutionizing the way garments are conceptualized, created, and showcased. From AI-generated clothing designs that push the boundaries of creativity and craftsmanship to AI-powered startups that are transforming the fashion industry, the possibilities are endless.
+                          <br><br>
+                          This Fall 2023, with AI's cutting-edge technology infusing with the designer's artistic eyes, the fashion industry has become even more innovative and exciting. Whether you are looking for a casual outfit or a formal dress, our AI-powered fashion designers can help you look your best. The possibilities are endless, and we cannot wait to see what the future holds for this timeless classic.
+                        </p>
+                        <br><br>
+                        <!-- <p href=""> -->
+                            <a href="index.html" class="button button-primary"  style="margin-bottom: 15%; text-transform: uppercase; ">view project</a>
+                        <!-- </p> -->
+                    </div>
+                </div>
+                <br>
+
+
+
+
+<!-- 
+                <div class="container2">
+                    <div class="child2-1">
+                        <h2>About the Designer</h2>
+                        <p style="text-align: left;">
+                          Phuong Ngo is a college student, majoring Digital Media Art in San Jose State University. During her time in school, she learned 3D modeling, html and java coding; so aside from digital drawing, Phuong can also do basic website design, logo design, character design, and fashion design. She is a digital illustrator that started making her earliest works mostly based on fan art and game art. In 2020, she changed her art style into semi-realism, increased her fanbase and started accepting commissions as her second part-time job. She has a good storytelling skill, and has talent in implying parable, lesson, wordplay, symbol, etc. in her artworks. Phuong really tends to include a second layer meaning behind every detail of her work of art, because she personally thinks that is how any artwork becomes a work of art - by being meaningful in the most subtle way.
+                          </p>
+                        <br><br>
+
+                            <a href="https://lucifeung.github.io/" target="_blank" class="button button-primary" style="margin-bottom: 15%; text-transform: uppercase; ">view designer
+                                portfolio</a>
+
+                    </div>
+
+                    <div class="child2-2">
+                      <br><br><br><br><br>
+                        <img class="artist_profile" src="./assets/LP.jpg" alt="Phuong Ngo">
+                    </div>
+                </div> -->
+                <br>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
